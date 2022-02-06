@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Хозяева</th>
+        <th>Гости</th>
+        <th>Результат</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+  <form>
+    <label for="team">Любимая команда:</label>
+    <select name="team" id="team">
+      <option value="FUL">Фулхэм</option>
+      <option value="MCI">Манчестер Сити</option>
+    </select>
+    <button type="submit">Подтвердить выбор</button>
+  </form>
+  <script src="./app.js"></script>
+</body>
+
+</html>
